@@ -312,6 +312,7 @@ function run(containerElem) {
                     game.steerRight();
                     break;
                 case KEY_DOWN:
+                    game.steerDown();
                     break;
                 case KEY_UP:
                     game.rotate();
